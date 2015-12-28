@@ -20,6 +20,7 @@ var options = {
 }
 
 var testPID = new PID(options);
+
 console.log('kp: ' + testPID.kp + ' | ki: ' + testPID.ki + ' | kd: ' + testPID.kd + ' | dt: ' + testPID.dt);
 console.log('input: ' + testPID.input + ' | target: ' + testPID.target);
 console.log('ubound: ' + testPID.u_bound + ' | lbound: ' + testPID.l_bound);
@@ -29,11 +30,11 @@ testPID.startLoop();
 testPID.on("output", function(output) {
   currentValue += output;
   var val = parseInt(currentValue);
-  console.log('Output: '  + parseInt(output) + ' | Value: ' + val);
+  console.log('Output: '  + parseFloat(output).toFixed(2) + ' | Value: ' + parseFloat(currentValue).toFixed(2));
   this.setInput(currentValue);
 
   if (val === targetValue ) {
     this.stopLoop();
-    console.log('Current Value equal to Target Value.  Stopping loop and exit program.');
+    console.log('Current Value equal to Target Value.  Stop loop and exit program.');
   }
 });
