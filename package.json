@@ -1,0 +1,25 @@
+{
+  "name": "awesome-pid",
+  "version": "1.0.0",
+  "description": "A flexible and easy to use PID Controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkim89/Awesome-PID.git"
+  },
+  "keywords": [
+    "PID",
+    "robotics",
+    "automation",
+    "proportional-integral-derivative"
+  ],
+  "author": "David Kim <pvdavidkim@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkim89/Awesome-PID/issues"
+  },
+  "homepage": "https://github.com/dkim89/Awesome-PID#readme"
+}
