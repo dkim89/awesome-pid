@@ -37,7 +37,7 @@ l_bound | Number | Output lower bound |
 ## Functions and Accessors
 Option parameters can be used (above), or each value can be set individually.
 ```javascript
-var PID = require('../lib/awesome-pid.js');
+var PID = require('awesome-pid');
 
 var testPID = new PID();
 
@@ -74,7 +74,7 @@ testPID.reset();
 
 ## Example
 ```javascript
-var PID = require('../lib/awesome-pid.js');
+var PID = require('awesome-pid');
 var currentValue = 0;
 var targetValue = 100;
 
