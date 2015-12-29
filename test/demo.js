@@ -33,8 +33,9 @@ testPID.on("output", function(output) {
   console.log('Output: '  + parseFloat(output).toFixed(2) + ' | Value: ' + parseFloat(currentValue).toFixed(2));
   this.setInput(currentValue);
 
+  // Stop and exit function once integer value of current value is equal to target value.
   if (val === targetValue ) {
     this.stopLoop();
-    console.log('Current Value equal to Target Value.  Stop loop and exit program.');
+    console.log('Current value equal to target value.  Stop loop and exit program.');
   }
 });
