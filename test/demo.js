@@ -12,7 +12,7 @@ var options = {
   kp: 0.5,
   ki: 0.05,
   kd: 0.1,
-  dt: 300,
+  dt: 300,  // milliseconds
   initial: currentValue,
   target: targetValue,
   u_bound: 30,
