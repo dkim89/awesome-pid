@@ -1,6 +1,6 @@
 {
   "name": "awesome-pid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A PID controller with built-in looping functionality.",
   "main": "index.js",
   "scripts": {
