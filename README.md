@@ -6,7 +6,7 @@ A PID controller with built-in looping functionality.
 
 ## Creating awesome-pid object with options
 ```javascript
-var PID = require('../lib/awesome-pid.js');
+var PID = require('awesome-pid');
 var options = {
   kp: 0.5,
   ki: 0.05,
