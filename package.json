@@ -1,7 +1,7 @@
 {
   "name": "awesome-pid",
   "version": "1.0.0",
-  "description": "A flexible and easy to use PID Controller",
+  "description": "PID controller with looping functionality or manual",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
